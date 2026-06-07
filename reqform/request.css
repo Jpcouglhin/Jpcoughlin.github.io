@@ -1,0 +1,74 @@
+:root{
+  --background: #FDE992;
+  --hovercolor:  #d87cc6;
+  --cardcolor:  #d87c96;
+  --textcolor: black;
+  --pading: 0;
+  --margin: 0;
+  --spacefat: 3rem;
+}
+@media (min-width: 48rem){
+  body {
+    padding: var(--spacefat);
+  }
+}
+h1{
+    text-align: center;
+}
+
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 1.5rem;
+}
+form{
+    justify-self: center;
+}
+select{
+    font-size: 1.2rem;
+}
+input{
+    font-size: 1.2rem;
+}
+#gradeinput{
+    display: flex;
+
+}
+#submitbtn{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(135, 183, 222);
+}
+ul {
+  list-style-type: none;
+  margin: var(--margin);
+  padding: var(--pading);
+}
+ul {
+  list-style-type: none;
+  margin: var(--margin);
+  padding: var(--pading);
+  overflow: hidden;
+  background-color: var(--cardcolor);
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: var(--textcolor);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: var(--hovercolor);
+}
+.navv{
+    position: sticky;
+}
