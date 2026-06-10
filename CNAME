@@ -18,6 +18,6 @@ $ dig EXAMPLE.COM +noall +answer -t AAAA
 > EXAMPLE.COM     3600    IN AAAA     2606:50c0:8003::153
 $ dig WWW.EXAMPLE.COM +nostats +nocomments +nocmd
 > ;WWW.EXAMPLE.COM.                    IN      A
-> WWW.EXAMPLE.COM.             3592    IN      CNAME   YOUR-jpcouglhin.github.io.
+> WWW.EXAMPLE.COM.             3592    IN      CNAME   jpcouglhin.github.io.
 > jpcouglhin.github.io.      43192   IN      CNAME   GITHUB-PAGES-SERVER .
 > GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
