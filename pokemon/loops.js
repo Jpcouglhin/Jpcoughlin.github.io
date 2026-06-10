@@ -4,6 +4,6 @@ let my_list = [10,4,6,3,3,4,5,6,7,8,1,2]
 
 console.log(my_list[6])
 
-for(let Jpcoughlin= my_list.length; Jpcoughlin >= 0; Jpcoughlin--){
-    console.log(my_list[Jpcoughlin])
+for(let jpcouglhin= my_list.length; jpcouglhin >= 0; jpcouglhin--){
+    console.log(my_list[jpcouglhin])
 }
