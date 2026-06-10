@@ -1,8 +1,8 @@
 // Example gallery.js
 const galleryImages = [
-    'images/photo1.jpg',
-    'images/photo2.jpg',
-    'images/photo3.jpg'
+    'images/photo1.jpg', images/eevee.png
+    'images/photo2.jpg', images/eevee.png
+    'images/photo3.jpg'images/eevee.png
 ];
 
 const galleryContainer = document.querySelector('.gallery-wrapper');
