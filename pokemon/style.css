@@ -1,3 +1,13 @@
+
+:root{
+  --background: #FDE992;
+  --hovercolor:  #d87cc6;
+  --cardcolor:  #d87c96;
+  --textcolor: black;
+  --pading: 0;
+  --margin: 0;
+  --spacefat: 3rem;
+}
 :root{
      background-color: #FDE992;
 }
@@ -65,15 +75,15 @@ h4{
 }
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: var(--margin);
+  padding: var(--pading);
 }
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: var(--margin);
+  padding: var(--pading);
   overflow: hidden;
-  background-color: #d87cc6;
+  background-color: var(--hovercolor);
 }
 
 ul li {
@@ -131,3 +141,10 @@ img{
   height: auto;
   margin:20px;
 }
+
+
+
+
+
+  
+
